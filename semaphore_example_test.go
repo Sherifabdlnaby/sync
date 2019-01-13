@@ -7,6 +7,7 @@ package semaphore
 import (
 	"context"
 	"fmt"
+	"golang.org/x/sync/semaphore"
 	"log"
 	"runtime"
 )
